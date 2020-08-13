@@ -2699,6 +2699,10 @@ box-shadow: 0px 0px 4px #adadad;
   background-color: #df5c39;
 }
 .top-links ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
   margin-bottom: 0;
 }
 #logo img {
@@ -4377,6 +4381,8 @@ span.option_price {
 #menu {
   margin-bottom: 0;
   position: relative;
+
+  width: 100%;
 }
 
 .top-links #menu {
